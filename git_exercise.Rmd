@@ -1,0 +1,23 @@
+---
+title: "git_exercise"
+author: "Marco Vicari"
+date: "2023-06-14"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# installation
+```{r}
+# initialize folder as github repository
+usethis::use_git()
+
+# connect it to my Github
+usethis::use_github()
+
+```
+
